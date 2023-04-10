@@ -1,0 +1,83 @@
+:root{
+    --primary-color: #7c3aed;
+    --secondary-color: #1d4ed8;
+    --heading-color: #0d3344;
+    --header-color: #0369a1;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    max-width: 90%;
+    margin: 0px auto;
+}
+
+.navbar-container{
+    background-color: var(--secondary-color);
+    color: white; 
+    padding: 1rem;
+    border-bottom-left-radius: 20px;
+
+}
+
+
+.navbar-heading a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.navbar-container .navbar-header{
+    list-style: none;
+    font-weight: bold;
+    text-align: right;
+    margin: 0rem 1rem;
+}
+.list-item{
+    display: inline-block;
+    text-decoration: none;
+    padding: 0rem 2rem;
+}
+
+.list-item .link {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.logo{
+    padding: 1rem;
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.logo .logo-image{
+    max-width: 90%;
+    width: 600px;
+    display: block;
+    margin: auto;
+}
+
+.logo .logo-heading {
+    padding-top: 1rem;
+    color: var(--heading-color);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.logo .logo-heading .heading-color {
+    color: var(--secondary-color);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.section{
+    background-color: #f5f3ff;
+    text-align: center;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 20px;
+}
+.footer{
+    height: 40vh;
+}
