@@ -62,7 +62,7 @@ body {
     border-radius: 1rem;
     color: var(--primary-color);
     padding: 10px 1rem;
-    margin: 1rem auto;
+    margin: 1rem;
 }
 
 
@@ -133,7 +133,7 @@ body {
 .section {
     text-align: center;
     padding: 20px;
-    margin: 20px 0;
+    margin: 20px 0px;
     border-radius: 1rem;
 }
 
@@ -174,3 +174,20 @@ body {
 .filter{
     filter: invert(100%);
 }
+
+
+/* Project Page CSS */
+
+.showcase-list {
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 1rem;
+}
+
+.showcase-list a:hover {
+    background-color: yellow;
+    border-radius: 1rem;
+    color: #050424f6;
+}
+
