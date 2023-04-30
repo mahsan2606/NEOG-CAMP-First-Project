@@ -1,6 +1,7 @@
 :root{
     --primary-color: #7c3aed;
     --secondary-color: #1d4ed8;
+    --header-background-color: #182957;
     --heading-color: #0d3344;
     --header-color: #0369a1;
 }
@@ -13,7 +14,7 @@ body{
 }
 
 .navbar-container{
-    background-color: var(--secondary-color);
+    background-color: var(--header-background-color);
     color: white; 
     padding: 1rem;
     border-bottom-left-radius: 20px;
