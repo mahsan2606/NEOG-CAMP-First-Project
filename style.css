@@ -65,6 +65,10 @@ body {
     margin: 1rem;
 }
 
+.link-active {
+    font-weight: bold;
+}
+
 
 /* Navbar CSS Start*/
 .navbar {
